@@ -5,6 +5,7 @@ import Header from './Components/Header/Header';
 import Inventory from './Components/Inventory/Inventory';
 import NotFound from './Components/NotFound/NotFound';
 import OrderReviw from './Components/OrderReviw/OrderReviw';
+import PlaceOrder from './Components/PlaceOrder/PlaceOrder';
 import Shop from './Components/Shop/Shop';
 
 
@@ -27,6 +28,9 @@ function App() {
             </Route>
             <Route exact path="/inventory">
                <Inventory></Inventory>
+            </Route>
+            <Route exact path="/placeorder">
+               <PlaceOrder></PlaceOrder>
             </Route>
             <Route  path="*">
                <NotFound></NotFound>
